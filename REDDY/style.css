@@ -1,0 +1,173 @@
+body{
+   background-image:url('https://assets.gqindia.com/photos/627b6eb7dfc89f47b8f14d8d/4:3/w_1439,h_1079,c_limit/Mahesh%20Babu.jpegjpg');
+    font-size="50.5%";/* base font size is 14px*/
+    font-family:arial, 'lucida sans uni';
+
+}
+a{
+    text-decoration:none;
+}
+a:link a:visited{
+   color: #CF5C3F;
+}
+
+a:hover, a:active{
+    background-color:cadetblue;
+    color: azure;
+}
+
+
+body {
+    margin:0 auto
+    width=70;
+    clear:both;
+
+}
+.mainHeader img{
+    width: 30px;
+    height: auto;
+    margin:4%;
+
+}
+.mainHeader nav{
+     background-color: aqua;
+     height: 40px;
+     border: radius 5px;
+     -moz-border-radius:4px;
+     -webkit-border-radius:5px;
+
+}
+
+    .mainHeader nav ul{
+     list-style: none;  
+     margin: 0% auto; 
+
+    }
+\.mainHeder nav ul li{
+    float: left;
+    display:inline;
+}
+.mainHeder nav a:link, .mainHeader nav a:visited{
+    color: blanchedalmond;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+    /* come back here to assign height*/
+
+}
+.mainHeader nav, a:hover, .mainHeader nav a:active,
+.mainHeader nav .acive a:link, .mainHeader nav .acive a:visited{
+    background-color:#CF5C3F;
+    text-shadow:none;
+}
+ .mainHeader nav ul li a {
+    border-radius:5px;
+    -webkit-border-radeius:5px;
+
+ }
+ .maincontent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-raidus:5px;
+    -webkit-border-raidus:5px;
+    
+     }
+     .content{
+        width: 70px;
+        float: left;
+
+    }
+    .tpocontent{
+       border-color: aquamarine;
+       border-radius:5px ;
+       -moz-border-radius:50x;
+       -webkit-boreder-radius:5px;
+        padding: 3% 5;
+        margin: 2%;
+    }
+     .bottomcontent{
+        border-color: aquamarine;
+        border-radius:5px ;
+        -moz-border-radius:50x;
+        -webkit-boreder-radius:5px;
+        padding: 2% 3%;
+        margin: 2%;
+     }
+     .top-sidebar{
+        width:21%;
+        float: left;
+        background-color: aliceblue;
+        border-radius:5px ;
+        -moz-border-radius:50x;
+        -webkit-boreder-radius:5px;
+        margin: 2% 0 2% 3%;
+        padding: 2% 3%;
+     }
+     .post-info{
+        font-style: italic;
+        color: #999;
+        font-size:90%;
+     }
+    
+    .middle-sidebar{
+       width:21%;
+       float: left;
+       background-color: rgb(250, 240, 255);
+       border-radius:5px ;
+       -moz-border-radius:50x;
+        -webkit-boreder-radius:5px;
+        margin: 3%;
+        margin-bottom:2%;
+        margin-top: 2%;
+        padding: 2% 3%;
+    }
+
+.bottom-sidebar{
+    width:21%;
+   float: left;
+   background-color: rgb(247, 240, 255);
+   border-radius:5px ;
+   -moz-border-radius:50x;
+   -webkit-boreder-radius:5px;
+    margin: 3%;
+    margin-bottom:2%;
+    margin-top: 2%;
+    padding: 2% 3%;
+}
+.mainFooter{
+    width:100%;
+    height: 40px;
+    float: left;
+    border: radius 5px;
+    -moz-border-radius:5px;
+    -webkit-boreder-radius:5px;
+    background-color:blue ;
+    margin: 2% 0 ;
+    
+}
+.mainFooter{
+    width:92%;
+    margin: 10% auto;
+    color:#fff;
+}
+@media only screen and(main-width: 150px)  and (max-width:600px){
+    
+  .body {
+    width:90%;
+    font-size:95% ;
+
+    
+
+  } 
+  .mainHeader img{
+    width: 100%;
+    height: auto;
+    margin:4%;
+
+  
+
+  }
+}
+
+
+    
